@@ -43,19 +43,8 @@ body._lock{
     
 }
 
-.header__logo {
-}
 .header__geolocation {
     display: none;
-}
-.header__city {
-}
-.header__street {
-}
-
-.header__menu {
-}
-.menu {
 }
 .header__menu-burger {
     z-index: 5;
@@ -183,8 +172,7 @@ body._lock{
         cursor: pointer;
     }
 }
-.page {
-}
+
 .page__section{
     background-color: #F8FBFA;
     padding-top: 65px;
@@ -224,8 +212,7 @@ body._lock{
     width: 100%;
    
 }
-.slider {
-}
+
 .slider__card {
     width: 340px ;
     margin: 0px auto 0px;
@@ -405,8 +392,7 @@ body._lock{
     }
     
 }
-.footer__links {
-}
+
 .links {
     display: flex;
     gap: 20px;
@@ -451,10 +437,9 @@ body._lock{
     transition: visibility 0.4s, opacity 0.5s linear;
     z-index: 10;
 }
-.page__popup-avatar {
-}
+
 .popup__container {
-    width: 430px;
+    width: 300px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
@@ -470,11 +455,10 @@ body._lock{
     margin-left: 36px;
     margin-bottom: 54px;
 }
-.popup__form {
-}
+
 .popup__input {
     box-sizing: border-box;
-    width: 358px;
+    width: 230px;
     height: 27px;
     margin: 0px 36px 25px;
     border-style: none;
@@ -491,12 +475,8 @@ body._lock{
     }
 }
 
-.popup__input_valve_link {
-}
-.popup__error {
-}
 .popup__button-save {
-    width: 358px;
+    width: 230px;
     height: 50px;
     margin-left: 36px;
     margin-bottom: 35px;
@@ -516,8 +496,8 @@ body._lock{
 
 .popup__button-close {
     position: absolute;
-    top: -40px;
-    right: -40px;
+    top:-30px;
+    right: -30px;
     width: 32px;
     height: 32px;
     background-image: url(../images/Close_Icon.svg);
@@ -755,6 +735,15 @@ body._lock{
     .link__telegram{
         width: 35px;
         height: 35px;
+    }
+    .popup__container {
+         width: 430px;
+    }
+    .popup__input{
+        width: 358px;
+    }
+    .popup__button-save{
+        width: 358px;
     }
 }
 

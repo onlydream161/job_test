@@ -448,7 +448,7 @@ body._lock {
 }
 
 .popup__container {
-  width: 430px;
+  width: 300px;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
@@ -468,7 +468,7 @@ body._lock {
 
 .popup__input {
   box-sizing: border-box;
-  width: 358px;
+  width: 230px;
   height: 27px;
   margin: 0px 36px 25px;
   border-style: none;
@@ -486,7 +486,7 @@ body._lock {
 }
 
 .popup__button-save {
-  width: 358px;
+  width: 230px;
   height: 50px;
   margin-left: 36px;
   margin-bottom: 35px;
@@ -506,8 +506,8 @@ body._lock {
 
 .popup__button-close {
   position: absolute;
-  top: -40px;
-  right: -40px;
+  top: -30px;
+  right: -30px;
   width: 32px;
   height: 32px;
   background-image: url(../images/Close_Icon.svg);
@@ -739,6 +739,15 @@ body._lock {
   .link__telegram {
     width: 35px;
     height: 35px;
+  }
+  .popup__container {
+    width: 430px;
+  }
+  .popup__input {
+    width: 358px;
+  }
+  .popup__button-save {
+    width: 358px;
   }
 }
 @media (min-width: 1140px) {
